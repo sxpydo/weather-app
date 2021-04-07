@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+
+    <style>
+        body {background-color: #FFFFFF}
+
+
+        h1 {
+            text-align: center;
+            color: #1A64D6;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 34px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: 400;
+            color: #272044;
+            font-family:Arial, Helvetica, sans-serif;
+            margin: 0;
+            font-size: 30px;
+            font-weight: lighter;
+        }
+
+        h3 {
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+
+        p {
+            text-align: center;
+            font-size: 16px;
+            font-family:monospace;
+        }
+
+        li {
+            list-style: none;
+            display: list-item;
+            border-radius: 10px;
+            text-align: center;
+            margin: 0 auto;
+            max-width: 400px;
+            padding: 10px 0 10px 0;
+            transition: all 200ms ease-in-out;
+        }
+
+
+        li:hover {background: #BBDEFB;
+                   color: #000000;
+                   cursor: pointer;}
+
+        ul {
+            text-align: center;
+            list-style-type: disc;
+            margin: 10px 0;
+            padding: 0;
+            margin-block-start: 16px;
+            margin-block-end: 16px;
+            padding-inline-start: 40px 0px 40px 0px;
+        }
+        
+
+        button {
+            display: block;
+            margin: 0 auto 20px;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: #F6F2FE;
+            background-color:#1976D2;
+            border: 1px solid #F6F2FE;
+            border-radius: 30px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+            transition: all 200ms ease-in-out;
+        }
+
+
+        button:hover {
+            background: #F6F2FE;
+            color: #1976D2;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+     <h1>☁</h1>
+     <br />
+    <h1>Currently 8° in Birmingham, UK </h1>
+    <h2>10° / <strong>6°</strong></h2>
+    <br>
+    <ul>
+        <li>
+            <h3>
+                🌨 Friday
+            </h3>
+            <p>11° / <strong>9°</strong></p>
+        </li>
+        <li>
+            <h3>
+                ☀ Saturday
+            </h3>
+            <p>12° / <strong>10°</strong></p>
+        </li>
+        <li>
+            <h3>
+                🌥 Sunday
+            </h3>
+            <p>10° / <strong>9°</strong></p>
+        </li>
+    </ul>
+    <br>
+    <button>Change city</button>
+    <p> 
+        <em> Coded by Shavana Peynado </em>
+    </p>
+</body>
+</html>
